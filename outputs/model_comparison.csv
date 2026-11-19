@@ -1,0 +1,3 @@
+"model","residual_df","residual_MSE","treatment_F","treatment_p"
+"RCBD (participant blocking)",58,0.0143260796446357,0.523509937153825,0.595210099925516
+"CRD (ignores repeated measures)",87,0.0264732757492866,0.283298716994855,0.753986967804786

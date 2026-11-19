@@ -1,0 +1,29 @@
+STEP 1 — DATA QUALITY REPORT
+Participants: 30
+Original columns: 12
+Long-format observations: 90
+Missing cells in original: 0
+Duplicate participant IDs: 0
+Error rate range: 0.0476 to 1
+
+Summary by music condition:
+   condition error_rate.mean error_rate.sd
+1   No music       0.3630770     0.1386839
+2 Calm music       0.3751608     0.1959986
+3 Rock music       0.3944264     0.1475504
+
+Program values as recorded:
+
+        Actuarial Sciece        Actuarial Science              Anthropolgy 
+                       1                        4                        1 
+     Applied Mathematics      Business Management Communications and Media 
+                       2                        1                        1 
+            Data Science                Economics                  English 
+                       2                        3                        1 
+                 Finance                Pure Math     Software Engineering 
+                       1                        3                        1 
+              Statistics 
+                       9 
+
+Note: Age/sex/music preference/familiarity codes are preserved, not reinterpreted.
+Note: Randomized treatment order is not recorded in this dataset.

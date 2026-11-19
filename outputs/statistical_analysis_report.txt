@@ -1,0 +1,44 @@
+STEP 3 — RCBD ANOVA AND MODEL DIAGNOSTICS
+Original course analysis reproduced using the Step 1 cleaned data.
+Primary model: error_rate ~ condition + participant_id
+
+RCBD ANOVA:
+               Df Sum Sq Mean Sq F value   Pr(>F)    
+condition       2 0.0150 0.00750   0.524    0.595    
+participant_id 29 1.4723 0.05077   3.544 2.05e-05 ***
+Residuals      58 0.8309 0.01433                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+CRD ANOVA (comparison only; ignores repeated-measures dependence):
+            Df Sum Sq Mean Sq F value Pr(>F)
+condition    2  0.015 0.00750   0.283  0.754
+Residuals   87  2.303 0.02647               
+
+Model comparison:
+                           model residual_df residual_MSE treatment_F treatment_p
+     RCBD (participant blocking)          58   0.01432608   0.5235099   0.5952101
+ CRD (ignores repeated measures)          87   0.02647328   0.2832987   0.7539870
+
+Reduction in residual MSE with blocking: 45.9%
+
+Shapiro-Wilk residual p-value (supplementary only): 0.0002189
+Number of observations flagged for review (|standardized residual| > 2): 2
+
+Leave-one-participant-out treatment p-value range:
+0.2564 to 0.7458
+
+Exploratory participant-paired differences (B minus A; unadjusted 95% intervals):
+ condition_B condition_A mean_difference_B_minus_A    ci_lower   ci_upper
+  Calm music    No music                0.01208389 -0.05789037 0.08205816
+  Rock music    No music                0.03134944 -0.02042634 0.08312522
+  Rock music  Calm music                0.01926555 -0.04712698 0.08565807
+
+INTERPRETATION CAUTIONS:
+- RCBD is the primary analysis; CRD ignores participant pairing and is shown only to illustrate residual variation.
+- Residual plots assess approximate normality and spread; neither a plot nor a test proves assumptions.
+- With one observation per participant-condition cell, participant-by-condition interaction cannot be separately estimated from residual error.
+- Randomized order was not recorded; learning, fatigue and carryover cannot be directly evaluated.
+- Error rate is bounded between 0 and 1; examine the impact of extremes and non-normal tails.
+- Participant-paired intervals are exploratory, unadjusted for multiple comparisons.
+- No observations were deleted and no mixed-effects model was fitted.

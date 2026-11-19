@@ -1,0 +1,30 @@
+STEP 4 — FRIEDMAN SENSITIVITY ANALYSIS
+Participants: 30; conditions: 3; observations: 90
+
+Condition summaries (including mean within-participant ranks):
+  condition  n mean_error_rate median_error_rate mean_within_participant_rank
+   No music 30         0.36308           0.38697                       1.8333
+ Calm music 30         0.37516           0.34483                       1.8333
+ Rock music 30         0.39443           0.37500                       2.3333
+
+Friedman test (tie-adjusted when needed):
+
+	Friedman rank sum test
+
+data:  error_rate and condition and participant_id
+Friedman chi-squared = 5, df = 2, p-value = 0.08208
+
+Approximate Kendall W = 0.0833 (interpret cautiously with ties)
+
+Comparison with primary RCBD ANOVA:
+                              method statistic df  p_value
+       RCBD ANOVA (mean differences)   0.52351  2 0.595210
+ Friedman (within-participant ranks)   5.00000  2 0.082085
+
+Interpretation notes:
+- Friedman tests whether the conditions differ in within-participant ranks; it is not identical to the RCBD mean-effect test.
+- Participants are the independent blocks; each contributes one measurement per condition.
+- Friedman does not require normally distributed ANOVA residuals, but does not establish that RCBD assumptions hold.
+- The chi-square p-value is an asymptotic approximation and ties are present in some data.
+- A non-significant result is not evidence of equivalence or absence of an effect.
+- No observations were removed; no post-hoc pairwise tests were conducted.

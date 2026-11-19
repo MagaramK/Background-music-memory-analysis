@@ -1,0 +1,3 @@
+"method","statistic","df","p_value"
+"RCBD ANOVA (mean differences)",0.523509937153825,2,0.595210099925516
+"Friedman (within-participant ranks)",5,2,0.0820849986238988

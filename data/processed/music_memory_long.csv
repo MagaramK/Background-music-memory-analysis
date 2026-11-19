@@ -1,0 +1,91 @@
+"participant_id","music_pref","age_code","sex_code","game_familiarity","program","condition","misses","moves","error_rate"
+1,0,0,0,3,"Pure Math","No music",1,19,0.0526315789473684
+1,0,0,0,3,"Pure Math","Calm music",2,21,0.0952380952380952
+1,0,0,0,3,"Pure Math","Rock music",3,21,0.142857142857143
+2,1,0,1,1,"Pure Math","No music",4,22,0.181818181818182
+2,1,0,1,1,"Pure Math","Calm music",9,30,0.3
+2,1,0,1,1,"Pure Math","Rock music",5,24,0.208333333333333
+3,1,0,1,2,"Actuarial Science","No music",16,34,0.470588235294118
+3,1,0,1,2,"Actuarial Science","Calm music",10,29,0.344827586206897
+3,1,0,1,2,"Actuarial Science","Rock music",11,30,0.366666666666667
+4,1,0,0,2,"Statistics","No music",17,38,0.447368421052632
+4,1,0,0,2,"Statistics","Calm music",16,35,0.457142857142857
+4,1,0,0,2,"Statistics","Rock music",9,29,0.310344827586207
+5,1,0,0,2,"Actuarial Sciece","No music",6,24,0.25
+5,1,0,0,2,"Actuarial Sciece","Calm music",1,19,0.0526315789473684
+5,1,0,0,2,"Actuarial Sciece","Rock music",8,27,0.296296296296296
+6,1,1,0,2,"Pure Math","No music",2,21,0.0952380952380952
+6,1,1,0,2,"Pure Math","Calm music",1,21,0.0476190476190476
+6,1,1,0,2,"Pure Math","Rock music",3,21,0.142857142857143
+7,1,0,0,1,"Data Science","No music",7,26,0.269230769230769
+7,1,0,0,1,"Data Science","Calm music",8,28,0.285714285714286
+7,1,0,0,1,"Data Science","Rock music",8,27,0.296296296296296
+8,1,0,0,1,"English","No music",31,49,0.63265306122449
+8,1,0,0,1,"English","Calm music",16,37,0.432432432432432
+8,1,0,0,1,"English","Rock music",25,43,0.581395348837209
+9,1,0,1,2,"Data Science","No music",6,25,0.24
+9,1,0,1,2,"Data Science","Calm music",13,30,0.433333333333333
+9,1,0,1,2,"Data Science","Rock music",13,32,0.40625
+10,1,0,0,1,"Software Engineering","No music",22,42,0.523809523809524
+10,1,0,0,1,"Software Engineering","Calm music",7,25,0.28
+10,1,0,0,1,"Software Engineering","Rock music",12,31,0.387096774193548
+11,0,1,1,1,"Statistics","No music",15,35,0.428571428571429
+11,0,1,1,1,"Statistics","Calm music",4,25,0.16
+11,0,1,1,1,"Statistics","Rock music",8,29,0.275862068965517
+12,1,0,1,1,"Statistics","No music",7,26,0.269230769230769
+12,1,0,1,1,"Statistics","Calm music",14,14,1
+12,1,0,1,1,"Statistics","Rock music",14,36,0.388888888888889
+13,1,0,1,1,"Statistics","No music",4,23,0.173913043478261
+13,1,0,1,1,"Statistics","Calm music",9,29,0.310344827586207
+13,1,0,1,1,"Statistics","Rock music",13,33,0.393939393939394
+14,0,0,1,1,"Economics","No music",19,39,0.487179487179487
+14,0,0,1,1,"Economics","Calm music",22,43,0.511627906976744
+14,0,0,1,1,"Economics","Rock music",22,42,0.523809523809524
+15,0,0,0,2,"Statistics","No music",6,26,0.230769230769231
+15,0,0,0,2,"Statistics","Calm music",8,29,0.275862068965517
+15,0,0,0,2,"Statistics","Rock music",11,31,0.354838709677419
+16,0,0,1,1,"Statistics","No music",12,35,0.342857142857143
+16,0,0,1,1,"Statistics","Calm music",11,32,0.34375
+16,0,0,1,1,"Statistics","Rock music",8,27,0.296296296296296
+17,1,0,1,1,"Economics","No music",15,37,0.405405405405405
+17,1,0,1,1,"Economics","Calm music",13,33,0.393939393939394
+17,1,0,1,1,"Economics","Rock music",9,30,0.3
+18,1,0,0,1,"Economics","No music",13,33,0.393939393939394
+18,1,0,0,1,"Economics","Calm music",9,30,0.3
+18,1,0,0,1,"Economics","Rock music",15,36,0.416666666666667
+19,1,0,1,2,"Statistics","No music",6,24,0.25
+19,1,0,1,2,"Statistics","Calm music",4,22,0.181818181818182
+19,1,0,1,2,"Statistics","Rock music",13,35,0.371428571428571
+20,1,0,0,1,"Statistics","No music",11,29,0.379310344827586
+20,1,0,0,1,"Statistics","Calm music",10,29,0.344827586206897
+20,1,0,0,1,"Statistics","Rock music",12,32,0.375
+21,0,0,0,1,"Finance","No music",18,35,0.514285714285714
+21,0,0,0,1,"Finance","Calm music",35,53,0.660377358490566
+21,0,0,0,1,"Finance","Rock music",22,40,0.55
+22,0,0,1,1,"Actuarial Science","No music",21,40,0.525
+22,0,0,1,1,"Actuarial Science","Calm music",27,45,0.6
+22,0,0,1,1,"Actuarial Science","Rock music",9,28,0.321428571428571
+23,0,0,1,1,"Communications and Media","No music",7,24,0.291666666666667
+23,0,0,1,1,"Communications and Media","Calm music",12,30,0.4
+23,0,0,1,1,"Communications and Media","Rock music",21,39,0.538461538461538
+24,1,0,1,1,"Anthropolgy","No music",12,29,0.413793103448276
+24,1,0,1,1,"Anthropolgy","Calm music",9,27,0.333333333333333
+24,1,0,1,1,"Anthropolgy","Rock music",26,45,0.577777777777778
+25,1,0,1,1,"Business Management","No music",19,50,0.38
+25,1,0,1,1,"Business Management","Calm music",24,51,0.470588235294118
+25,1,0,1,1,"Business Management","Rock music",31,60,0.516666666666667
+26,1,0,1,2,"Applied Mathematics","No music",19,38,0.5
+26,1,0,1,2,"Applied Mathematics","Calm music",7,24,0.291666666666667
+26,1,0,1,2,"Applied Mathematics","Rock music",15,24,0.625
+27,1,0,1,1,"Actuarial Science","No music",17,36,0.472222222222222
+27,1,0,1,1,"Actuarial Science","Calm music",12,33,0.363636363636364
+27,1,0,1,1,"Actuarial Science","Rock music",4,25,0.16
+28,1,0,1,1,"Actuarial Science","No music",15,37,0.405405405405405
+28,1,0,1,1,"Actuarial Science","Calm music",36,61,0.590163934426229
+28,1,0,1,1,"Actuarial Science","Rock music",48,72,0.666666666666667
+29,0,0,1,1,"Applied Mathematics","No music",35,72,0.486111111111111
+29,0,0,1,1,"Applied Mathematics","Calm music",37,57,0.649122807017544
+29,0,0,1,1,"Applied Mathematics","Rock music",42,63,0.666666666666667
+30,1,0,0,1,"Statistics","No music",11,29,0.379310344827586
+30,1,0,0,1,"Statistics","Calm music",10,29,0.344827586206897
+30,1,0,0,1,"Statistics","Rock music",12,32,0.375

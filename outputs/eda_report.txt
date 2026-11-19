@@ -1,0 +1,17 @@
+STEP 2 — EXPLORATORY DATA ANALYSIS
+Participants: 30
+Observations: 90
+
+Summary by condition:
+  condition  n      mean        sd    median        min       max  ci_lower  ci_upper
+   No music 30 0.3630770 0.1386839 0.3869697 0.05263158 0.6326531 0.3112915 0.4148624
+ Calm music 30 0.3751608 0.1959986 0.3448276 0.04761905 1.0000000 0.3019738 0.4483479
+ Rock music 30 0.3944264 0.1475504 0.3750000 0.14285714 0.6666667 0.3393302 0.4495226
+
+Notes:
+- Lower error rate means fewer misses per move, under the original metric.
+- Descriptive differences do not establish a treatment effect.
+- Condition-level confidence intervals are descriptive, not paired contrasts.
+- Order of treatment administration was not recorded.
+- Extreme values are retained; no observations were removed.
+- No hypothesis tests or new models were fitted in Step 2.

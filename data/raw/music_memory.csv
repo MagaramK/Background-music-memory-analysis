@@ -1,0 +1,31 @@
+subid,music_pref,age,sex,game_familiarity,program,misses.no_music,moves.no_music,misses.calm,moves.calm,misses.rock,moves.rock
+1,0,0,0,3,Pure Math,1,19,2,21,3,21
+2,1,0,1,1,Pure Math,4,22,9,30,5,24
+3,1,0,1,2,Actuarial Science,16,34,10,29,11,30
+4,1,0,0,2,Statistics,17,38,16,35,9,29
+5,1,0,0,2,Actuarial Sciece,6,24,1,19,8,27
+6,1,1,0,2,Pure Math,2,21,1,21,3,21
+7,1,0,0,1,Data Science,7,26,8,28,8,27
+8,1,0,0,1,English,31,49,16,37,25,43
+9,1,0,1,2,Data Science,6,25,13,30,13,32
+10,1,0,0,1,Software Engineering,22,42,7,25,12,31
+11,0,1,1,1,Statistics,15,35,4,25,8,29
+12,1,0,1,1,Statistics,7,26,14,14,14,36
+13,1,0,1,1,Statistics,4,23,9,29,13,33
+14,0,0,1,1,Economics,19,39,22,43,22,42
+15,0,0,0,2,Statistics,6,26,8,29,11,31
+16,0,0,1,1,Statistics,12,35,11,32,8,27
+17,1,0,1,1,Economics,15,37,13,33,9,30
+18,1,0,0,1,Economics,13,33,9,30,15,36
+19,1,0,1,2,Statistics,6,24,4,22,13,35
+20,1,0,0,1,Statistics,11,29,10,29,12,32
+21,0,0,0,1,Finance,18,35,35,53,22,40
+22,0,0,1,1,Actuarial Science,21,40,27,45,9,28
+23,0,0,1,1,Communications and Media,7,24,12,30,21,39
+24,1,0,1,1,Anthropolgy,12,29,9,27,26,45
+25,1,0,1,1,Business Management,19,50,24,51,31,60
+26,1,0,1,2,Applied Mathematics,19,38,7,24,15,24
+27,1,0,1,1,Actuarial Science,17,36,12,33,4,25
+28,1,0,1,1,Actuarial Science,15,37,36,61,48,72
+29,0,0,1,1,Applied Mathematics,35,72,37,57,42,63
+30,1,0,0,1,Statistics,11,29,10,29,12,32
